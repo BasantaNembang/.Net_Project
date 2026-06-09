@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+
+# Temporary files
+*.tmp
+
+# Publish output
+publish/
+
+# Secrets
+appsettings.Development.json
+secrets.json
+

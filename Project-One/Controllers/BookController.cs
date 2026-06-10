@@ -16,19 +16,18 @@ namespace Project_One.Controllers
 
 
         //get-all result
-        [HttpGet("")]
+        [HttpGet()]
         public async Task<IActionResult> GetAllBooks(){
             var datas = await bookService.GetAllBooksAsync();
             return Ok(datas);
         }
 
         //get result by id
-        //[HttpGet("")]
-        //public async Task<IActionResult> GetAllBooks()
-        //{
-        //    var datas = await bookService.GetAllBooksAsync();
-        //    return Ok(datas);
-        //}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetABook([FromRoute] int id){
+            var data = await bookService.GetBookByIDAsync(id);
+            return Ok(data);
+        }
 
 
         //add new data
@@ -39,6 +38,34 @@ namespace Project_One.Controllers
         }
 
 
+        //update the data
+        [HttpPut("update")]
+        public async Task<IActionResult> UpDateData([FromQuery] int id,
+            [FromBody] BookDTO book)
+        {
+            var data = await bookService.UpdateTheBodyAysnc(id, book);
+            return Ok(data);
+        }
+
+
+
+        //optimize-update 
+        [HttpPut()]
+        public async Task<IActionResult> UpDateDataO([FromBody] BookDTO book)
+        {
+            var data = await bookService.UpdateTheBodyAysncO(book);
+            return Ok(data);
+        }
+
+
+
+        //optimize-update 
+        [HttpDelete()]
+        public async Task<IActionResult> UpDateDataO([FromRoute] int id)
+        {
+            var data = await bookService.DeleteTheDataAsync(id);
+            return Ok(data);
+        }
 
     }
 }

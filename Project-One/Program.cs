@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Project_One.Data;
+using Project_One.Excpetion;
 using Project_One.Service;
 using Project_One.Service.Interfaces;
 
@@ -11,6 +12,7 @@ builder.Services.AddDbContext<AppDbContext>(options
 builder.Services.AddControllers();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddOpenApi();
+builder.Services.AddExceptionHandler<AppExceptionHandler>();
 
 var app = builder.Build();
 
@@ -19,6 +21,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseExceptionHandler( _ => { });
 
 app.UseHttpsRedirection();
 

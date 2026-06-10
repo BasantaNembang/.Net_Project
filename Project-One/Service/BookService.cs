@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using Project_One.Data;
 using Project_One.DTO;
 using Project_One.Modal;
@@ -94,7 +95,8 @@ namespace Project_One.Service
         public async Task<string> DeleteTheDataAsync(int id)
         {
             //ExecuteDeleteAsync can be used to delete all...
-            await dbContext.Books.Where(b => b.Id == id).ExecuteDeleteAsync();
+            var data = await dbContext.Books.Where(b => b.Id == id).ExecuteDeleteAsync();
+            if (data == 0) throw new Exception("No data founded....");
             return "successfully deleted";
         }
 

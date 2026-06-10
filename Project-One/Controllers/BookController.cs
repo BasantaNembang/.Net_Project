@@ -59,9 +59,9 @@ namespace Project_One.Controllers
 
 
 
-        //optimize-update 
-        [HttpDelete()]
-        public async Task<IActionResult> UpDateDataO([FromRoute] int id)
+        //delete-data 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTheData([FromRoute] int id)
         {
             var data = await bookService.DeleteTheDataAsync(id);
             return Ok(data);

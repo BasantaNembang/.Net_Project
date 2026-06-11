@@ -11,10 +11,12 @@ builder.Services.AddDbContext<AppDbContext>(options
     =>options.UseNpgsql(builder.Configuration.GetConnectionString("AppDb")));
 builder.Services.AddControllers();
 builder.Services.AddScoped<IBookService, BookService>();
+builder.Services.AddScoped<IOneToOneBookService, OneToOneBookServices>();
 builder.Services.AddOpenApi();
 builder.Services.AddExceptionHandler<AppExceptionHandler>();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -31,3 +33,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+

@@ -12,7 +12,9 @@ namespace Project_One.Data
 
 
         public DbSet<Book> Books { get; set; }
-        public DbSet<BookDetails> BookDetails { get; set; }
+
+        //public DbSet<BookDetails> BookDetails { get; set; }
+        public DbSet<Author> Authors { get; set; }
 
     }
 

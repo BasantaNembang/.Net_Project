@@ -11,7 +11,8 @@ builder.Services.AddDbContext<AppDbContext>(options
     =>options.UseNpgsql(builder.Configuration.GetConnectionString("AppDb")));
 builder.Services.AddControllers();
 builder.Services.AddScoped<IBookService, BookService>();
-builder.Services.AddScoped<IOneToOneBookService, OneToOneBookServices>();
+//builder.Services.AddScoped<IOneToOneBookService, OneToOneBookServices>();
+builder.Services.AddScoped<IOneToMany, OneToManyService>();
 builder.Services.AddOpenApi();
 builder.Services.AddExceptionHandler<AppExceptionHandler>();
 

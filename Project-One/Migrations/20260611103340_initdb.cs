@@ -12,18 +12,17 @@ namespace Project_One.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "BookDetails",
+                name: "Authors",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Price = table.Column<int>(type: "integer", nullable: false),
                     Name = table.Column<string>(type: "text", nullable: false),
-                    AuthorName = table.Column<string>(type: "text", nullable: false)
+                    Address = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_BookDetails", x => x.Id);
+                    table.PrimaryKey("PK_Authors", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -35,24 +34,23 @@ namespace Project_One.Migrations
                     Name = table.Column<string>(type: "text", nullable: false),
                     Title = table.Column<string>(type: "text", nullable: false),
                     Desc = table.Column<string>(type: "text", nullable: false),
-                    BookDetailsId = table.Column<int>(type: "integer", nullable: false)
+                    AuthorId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Books", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Books_BookDetails_BookDetailsId",
-                        column: x => x.BookDetailsId,
-                        principalTable: "BookDetails",
+                        name: "FK_Books_Authors_AuthorId",
+                        column: x => x.AuthorId,
+                        principalTable: "Authors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Books_BookDetailsId",
+                name: "IX_Books_AuthorId",
                 table: "Books",
-                column: "BookDetailsId",
-                unique: true);
+                column: "AuthorId");
         }
 
         /// <inheritdoc />
@@ -62,7 +60,7 @@ namespace Project_One.Migrations
                 name: "Books");
 
             migrationBuilder.DropTable(
-                name: "BookDetails");
+                name: "Authors");
         }
     }
 }

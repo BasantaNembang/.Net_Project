@@ -2,14 +2,23 @@
 {
     public class Book
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Title { get; set; } = string.Empty;
         public string Desc { get; set; } = string.Empty;
 
-        public int BookDetailsId { get; set; }
 
-        public BookDetails? BookDetails { get; set; }
+        //used for one-to-one mapping (BookDetails)
+
+        //public int BookDetailsId { get; set; }
+
+        //public BookDetails? BookDetails { get; set; }
+
+
+        //used for one-to-many mapping (Authors)
+        public int AuthorId { get; set; }
+
+        public Author? Author { get; set; }
     }
 }
 //the side/table that has the foreign key is the dependent side/table

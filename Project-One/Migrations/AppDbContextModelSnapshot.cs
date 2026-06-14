@@ -21,6 +21,27 @@ namespace Project_One.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("Project_One.Modal.Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+                });
+
             modelBuilder.Entity("Project_One.Modal.Book", b =>
                 {
                     b.Property<int>("Id")
@@ -29,7 +50,7 @@ namespace Project_One.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("BookDetailsId")
+                    b.Property<int>("AuthorId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Desc")
@@ -46,44 +67,23 @@ namespace Project_One.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BookDetailsId")
-                        .IsUnique();
+                    b.HasIndex("AuthorId");
 
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("Project_One.Modal.BookDetails", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AuthorName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("Price")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("BookDetails");
-                });
-
             modelBuilder.Entity("Project_One.Modal.Book", b =>
                 {
-                    b.HasOne("Project_One.Modal.BookDetails", "BookDetails")
-                        .WithOne("Book")
-                        .HasForeignKey("Project_One.Modal.Book", "BookDetailsId")
+                    b.HasOne("Project_One.Modal.Author", "Author")
+                        .WithMany("Book")
+                        .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("BookDetails");
+                    b.Navigation("Author");
                 });
 
-            modelBuilder.Entity("Project_One.Modal.BookDetails", b =>
+            modelBuilder.Entity("Project_One.Modal.Author", b =>
                 {
                     b.Navigation("Book");
                 });

@@ -1,0 +1,562 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\events\\usercreated\\sendmaileventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\events\\usercreated\\usercreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\events\\usercreated\\markactivehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\addemployee\\addemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\addemployee\\addemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF8D9D6-54F9-B492-F007-6F3B98FBCAC7}|..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj|d:\\donot\\clean_architecture\\myapp.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70676BA6-D6A2-EDE5-3C6B-E57BEB7BD703}|..\\MyApp.Domain\\MyApp.Domain.csproj|d:\\donot\\clean_architecture\\myapp.domain\\options\\connectionstringoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70676BA6-D6A2-EDE5-3C6B-E57BEB7BD703}|..\\MyApp.Domain\\MyApp.Domain.csproj|d:\\donot\\clean_architecture\\myapp.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF8D9D6-54F9-B492-F007-6F3B98FBCAC7}|..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj|d:\\donot\\clean_architecture\\myapp.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70676BA6-D6A2-EDE5-3C6B-E57BEB7BD703}|..\\MyApp.Domain\\MyApp.Domain.csproj|d:\\donot\\clean_architecture\\myapp.domain\\myapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF8D9D6-54F9-B492-F007-6F3B98FBCAC7}|..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj|d:\\donot\\clean_architecture\\myapp.infrastructure\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\updateemployee\\updateemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\updateemployee\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\deleteemployee\\deleteemployeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\commands\\deleteemployee\\deleteemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70676BA6-D6A2-EDE5-3C6B-E57BEB7BD703}|..\\MyApp.Domain\\MyApp.Domain.csproj|d:\\donot\\clean_architecture\\myapp.domain\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\dto\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\queries\\getemployeebyid\\getemployeesbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\queries\\getallemployee\\getallemployeesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\queries\\getemployeebyid\\getemployeebyidquerie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\queries\\getallemployee\\getallemployeequerie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\exceptions\\appexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:exceptions\\appexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\exceptions\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:exceptions\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E605121-4176-A33A-1D2B-CB821A1140A1}|..\\MyApp.Application\\MyApp.Application.csproj|d:\\donot\\clean_architecture\\myapp.application\\myapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF8D9D6-54F9-B492-F007-6F3B98FBCAC7}|..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj|d:\\donot\\clean_architecture\\myapp.infrastructure\\migrations\\20260612033619_initdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70676BA6-D6A2-EDE5-3C6B-E57BEB7BD703}|..\\MyApp.Domain\\MyApp.Domain.csproj|d:\\donot\\clean_architecture\\myapp.domain\\entity\\employe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF8D9D6-54F9-B492-F007-6F3B98FBCAC7}|..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj|d:\\donot\\clean_architecture\\myapp.infrastructure\\myapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\myapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:myapp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|d:\\donot\\clean_architecture\\myapp.api\\myapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A155C0A-43DE-FB2E-C370-507AB4811BEF}|MyApp.Api.csproj|solutionrelative:myapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 214,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MarkActiveHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\MarkActiveHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Events\\UserCreated\\MarkActiveHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\MarkActiveHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Events\\UserCreated\\MarkActiveHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:52:50.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendMailEventHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\SendMailEventHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Events\\UserCreated\\SendMailEventHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\SendMailEventHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Events\\UserCreated\\SendMailEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:48:47.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserCreatedEvent.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\UserCreatedEvent.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Events\\UserCreated\\UserCreatedEvent.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Events\\UserCreated\\UserCreatedEvent.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Events\\UserCreated\\UserCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:47:57.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionStringOptions.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Options\\ConnectionStringOptions.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Domain\\Options\\ConnectionStringOptions.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Options\\ConnectionStringOptions.cs",
+              "RelativeToolTip": "..\\MyApp.Domain\\Options\\ConnectionStringOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T09:17:56.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-13T09:13:44.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteEmployeeCommandHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommandHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommandHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T08:30:38.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\DeleteEmployee\\DeleteEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T08:30:24.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateEmployeeCommandHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T08:03:46.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\UpdateEmployee\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T08:01:24.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\DTO\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\DTO\\EmployeeDTO.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\DTO\\EmployeeDTO.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\DTO\\EmployeeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T07:09:47.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEmployeeCommandHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommandHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommandHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T06:27:55.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEmployeeCommand.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommand.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommand.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Commands\\AddEmployee\\AddEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T06:27:38.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllEmployeesQueryHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeesQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeesQueryHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeesQueryHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T06:18:50.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetAllEmployeeQuerie.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeeQuerie.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeeQuerie.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeeQuerie.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Queries\\GetALlEmployee\\GetAllEmployeeQuerie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T06:18:29.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetEmployeesByIDQueryHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeesByIDQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeesByIDQueryHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeesByIDQueryHandler.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeesByIDQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T04:55:07.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetEmployeeByIdQuerie.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeeByIdQuerie.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeeByIdQuerie.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeeByIdQuerie.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Queries\\GetEmployeeByID\\GetEmployeeByIdQuerie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T04:53:30.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ErrorDTO.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Exceptions\\ErrorDTO.cs",
+              "RelativeDocumentMoniker": "Exceptions\\ErrorDTO.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Exceptions\\ErrorDTO.cs",
+              "RelativeToolTip": "Exceptions\\ErrorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T04:00:52.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppExceptionHandler.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Exceptions\\AppExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Exceptions\\AppExceptionHandler.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Exceptions\\AppExceptionHandler.cs",
+              "RelativeToolTip": "Exceptions\\AppExceptionHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T03:53:31.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T03:44:13.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T16:31:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\MyApp.Domain\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T06:34:12.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\MyApp.Infrastructure\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:40:31.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260612033619_initdb.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Migrations\\20260612033619_initdb.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Infrastructure\\Migrations\\20260612033619_initdb.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Migrations\\20260612033619_initdb.cs",
+              "RelativeToolTip": "..\\MyApp.Infrastructure\\Migrations\\20260612033619_initdb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:36:19.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Employe.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Entity\\Employe.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Domain\\Entity\\Employe.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\Entity\\Employe.cs",
+              "RelativeToolTip": "..\\MyApp.Domain\\Entity\\Employe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:12:50.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\MyApp.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T03:10:48.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DependencyInjection.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T02:43:39.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MyApp.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "RelativeToolTip": "..\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-12T02:35:21.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\MyApp.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T02:35:36.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Domain\\DependencyInjection.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\MyApp.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T02:35:18.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MyApp.Api.http",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\MyApp.Api.http",
+              "RelativeDocumentMoniker": "MyApp.Api.http",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\MyApp.Api.http",
+              "RelativeToolTip": "MyApp.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-12T02:24:30.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MyApp.Api.csproj",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\MyApp.Api.csproj",
+              "RelativeDocumentMoniker": "MyApp.Api.csproj",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\MyApp.Api.csproj",
+              "RelativeToolTip": "MyApp.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-12T02:24:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\MyApp.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T02:23:13.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyApp.Domain.csproj",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\MyApp.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\MyApp.Domain\\MyApp.Domain.csproj",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Domain\\MyApp.Domain.csproj",
+              "RelativeToolTip": "..\\MyApp.Domain\\MyApp.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-12T02:20:47.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MyApp.Application.csproj",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\MyApp.Application.csproj",
+              "RelativeDocumentMoniker": "..\\MyApp.Application\\MyApp.Application.csproj",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Application\\MyApp.Application.csproj",
+              "RelativeToolTip": "..\\MyApp.Application\\MyApp.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-12T02:20:41.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DoNOT\\Clean_Architecture\\MyApp.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T02:13:19.664Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

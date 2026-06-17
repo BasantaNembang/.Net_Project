@@ -11,7 +11,18 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var allowedOrigins = builder.Configuration.GetSection("AllowedOrigins").Get<string[]>()!;
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(optionsCors =>
+    {
+        optionsCors.WithOrigins(allowedOrigins)
+        .AllowAnyMethod()
+        .AllowAnyHeader()
+        .AllowCredentials();
+    });
+});
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -50,6 +61,8 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseCors();
 
 app.UseExceptionHandler(_ => { });
 
